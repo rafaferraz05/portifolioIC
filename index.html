@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+    </header>
+    <main>
+        <!-- Seção para adicionar uma foto -->
+        <section class="foto">
+            <h2>Minha Foto</h2>
+            <img src="fotoPort.jfif" alt="Minha foto" class="imagem-perfil">
+            <p>Rafael Ferraz</p>
+        </section>
+
+        <!-- Seção "Sobre Mim" -->
+        <section class="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Meu nome é Rafael Ferraz, tenho 19 anos e sou estudante de Ciência da Computação. Sou apaixonado por tecnologia e sempre busco explorar novas inovações na área. Nos momentos livres, gosto de jogar bola, equilibrando meus interesses acadêmicos com atividades que trazem lazer e diversão ao meu dia a dia.</p>
+        </section>
+
+        <!-- Seção "O que me inspira" -->
+        <section class="inspiracoes">
+            <h2>O que Me Inspira?</h2>
+            <p>Minha maior inspiração para seguir na área de tecnologia é proporcionar uma vida melhor para todos ao meu redor, enquanto faço o que amo. </p>
+        </section>
+
+        <!-- Seção de Links de Estudo -->
+        <section class="links">
+            <h2>Projetos</h2>
+            <p>Clique aqui para acessar o link do meu projeto 1 </p>
+            <ul>
+                <li><a href="projeto1.html">Projeto 1</a></li>
+            </ul>
+        </section>
+
+        <main>
+            <section>
+                <button id="mostrarMensagem">Clique aqui para ver a mensagem</button>
+                <p id="mensagem">Esse é o meu portifólio, até mais!!</p>
+            </section>
+        </main>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('mostrarMensagem').addEventListener('click', function() {
+            document.getElementById('mensagem').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
